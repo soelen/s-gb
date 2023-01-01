@@ -1,0 +1,41 @@
+{
+  "name": "demos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/main.es.js",
+  "exports": {
+    ".": "./dist/main.es.js"
+  },
+  "types": "types/main.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@lit-labs/router": "^0.1.1",
+    "@mdi/svg": "^7.1.96",
+    "lil-gui": "^0.17.0",
+    "lit": "^2.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-svg-loader": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soelen/s-gb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soelen/s-gb/issues"
+  },
+  "homepage": "https://github.com/soelen/s-gb#readme",
+  "description": ""
+}

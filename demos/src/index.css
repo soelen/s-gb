@@ -1,0 +1,18 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --demo-brand-whatsapp: #25d366;
+  --demo-brand-whatsapp-active: #10b84f;
+  --demo-brand-instagram: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  --demo-brand-instagram-active: linear-gradient(45deg, #d87003 0%,#c94010 25%,#c20724 50%,#b5054b 75%,#bc1888 100%);
+  --demo-brand-dribbble: #ea4c89;
+  --demo-brand-dribbble-active: #c82061;
+  --demo-brand-twitter: #1d9bf0;
+  --demo-brand-twitter-active: #047fd2;
+  --demo-brand-tumblr: #001935;
+  --demo-brand-tumblr-active: #102e51;
+
+}
